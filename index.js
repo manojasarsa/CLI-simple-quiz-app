@@ -3,7 +3,7 @@ var readlineSync = require("readline-sync");
 var score = 0; 
 
 // input
-var input = readlineSync.question("What is you name? ");
+var input = readlineSync.question("What is your name? ");
 
 console.log("Welcome "+ input + " to the game!! \n");
 console.log("I'll ask you 4 questions. Let's see how well you know Manoj :) \n");
