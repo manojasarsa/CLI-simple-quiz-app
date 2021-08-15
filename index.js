@@ -6,7 +6,7 @@ var score = 0;
 var input = readlineSync.question("What is your name? ");
 
 console.log("Welcome "+ input + " to the game!! \n");
-console.log("I'll ask you 4 questions. Let's see how well you know Manoj :) \n");
+console.log("I'll ask you 5 questions. Let's see how well you know Manoj :) \n");
 
 function game(ques,ans)                   // function defintion
 {
@@ -48,6 +48,11 @@ var arrayOfObjects = [
   {
     question: "What is my birthday month? ",
     answer: "May"
+  },
+  //object5
+  {
+    question: "Which sport do I love most? ",
+    answer: "Football"
   }
 ]                      // array declaration complete
 
